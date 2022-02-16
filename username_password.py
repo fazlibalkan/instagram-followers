@@ -1,2 +1,2 @@
-username = "fazli.balkan"
-password = "Balkan41."
+username = ""
+password = ""

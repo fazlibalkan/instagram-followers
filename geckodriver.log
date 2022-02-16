@@ -382,3 +382,5 @@ DevTools listening on ws://localhost:63024/devtools/browser/ccfa33f8-b3a1-45db-9
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645024567212	Marionette	INFO	Stopped listening on port 63029
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
