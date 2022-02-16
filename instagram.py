@@ -14,6 +14,38 @@ class Browser:
         Browser.loginToAccount(self)
         Browser.getFollowers(self)
 
+    def getFollowers(self):
+        followersButton = self.browser.find_element_by_xpath("/html/body/div[1]/div/div/section/main/div/header/section/ul/li[2]/a/div")
+        followersButton.click()
+        time.sleep(4)
+
+        Browser.scrollDown(self)
+
+        followers = self.browser.find_elements_by_css_selector(".notranslate._0imsa")
+        
+        followerCount = 0
+
+        for follower in followers:
+            followerCount += 1
+            print(follower.text)
+        print(followerCount)
+
+    def scrollDown(self):
+        JavaScriptCommand = """
+        scrollBar = document.querySelector(".isgrP");
+        scrollBar.scrollTo(0, scrollBar.scrollHeight);
+        var scrollBarEnd = scrollBar.scrollHeight;
+        return scrollBarEnd;
+        """
+
+        divEnd = self.browser.execute_script(JavaScriptCommand)
+        while (True):
+            end = divEnd
+            time.sleep(1)
+            divEnd = self.browser.execute_script(JavaScriptCommand)
+            if end == divEnd:
+                break
+            
     def loginToAccount(self):
         username = self.browser.find_element_by_name("username")
         password = self.browser.find_element_by_name("password")
