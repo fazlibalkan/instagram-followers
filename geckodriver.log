@@ -391,3 +391,109 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:54484/devtools/browser/a2e67694-7a32-49ac-9f8e-f2966d666256
 1645024841978	Marionette	INFO	Listening on port 54490
 1645024842316	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645025503800	geckodriver	INFO	Listening on 127.0.0.1:54677
+1645025506864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54678" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileBwDv2G"
+1645025507269	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileBwDv2G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54678/devtools/browser/ed761b55-6943-4b28-a0fb-f15855b6e50b
+1645025511004	Marionette	INFO	Listening on port 54686
+1645025511070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645025564794	geckodriver	INFO	Listening on 127.0.0.1:54751
+1645025567865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54752" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilepljANq"
+1645025568363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilepljANq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54752/devtools/browser/d686440c-be4c-4c60-afa8-159cb7feeb7a
+1645025573155	Marionette	INFO	Listening on port 54757
+1645025573671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645026163805	geckodriver	INFO	Listening on 127.0.0.1:57085
+1645026166872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57086" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilexYcsk3"
+1645026167238	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilexYcsk3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57086/devtools/browser/4a05abc0-c668-4f63-87a7-78ee137253d4
+1645026171556	Marionette	INFO	Listening on port 57091
+1645026171693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1645026714460	geckodriver	INFO	Listening on 127.0.0.1:57399
+1645026717577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57400" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofile0U6pZP"
+1645026718393	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofile0U6pZP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57400/devtools/browser/aea8cbc2-a1d2-49b3-9a48-e56208cf25e8
+1645026722898	Marionette	INFO	Listening on port 57405
+1645026722950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645026767305	geckodriver	INFO	Listening on 127.0.0.1:57492
+1645026770443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57493" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileYofxed"
+1645026771151	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileYofxed\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57493/devtools/browser/dc3e6b43-df3e-4c87-bf37-1628c4d18854
+1645026775817	Marionette	INFO	Listening on port 57498
+1645026776350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645026855798	geckodriver	INFO	Listening on 127.0.0.1:57595
+1645026858910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57596" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilebsyrHL"
+1645026859909	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilebsyrHL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57596/devtools/browser/b1e42bfe-782a-465a-92fb-b33ba691d6e2
+1645026864513	Marionette	INFO	Listening on port 57601
+1645026864782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+1645026872524	Marionette	INFO	Stopped listening on port 57601
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1645026877587	geckodriver	INFO	Listening on 127.0.0.1:57655
+1645026880700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57656" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilel1x409"
+1645026881282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofilel1x409\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57656/devtools/browser/19bfe925-60c1-4c4c-9bb2-4f55fa7ecc35
+1645026885040	Marionette	INFO	Listening on port 57661
+1645026885634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1645027085091	Marionette	INFO	Stopped listening on port 57661
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+nette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileUSKliH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57800/devtools/browser/5e6d154e-75f3-490b-98a8-969ed8fa96d3
+1645027080546	Marionette	INFO	Listening on port 57807
+1645027081116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1645027270566	geckodriver	INFO	Listening on 127.0.0.1:57962
+1645027273701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57963" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileKZImzc"
+1645027274477	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofileKZImzc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57963/devtools/browser/9aa0cdbc-a88c-4606-b182-b4c735b4727c
+1645027278480	Marionette	INFO	Listening on port 57968
+1645027278552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
