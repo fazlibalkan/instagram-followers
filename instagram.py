@@ -1,3 +1,4 @@
+from itertools import count
 from selenium import webdriver
 import time
 import username_password as up
@@ -8,9 +9,11 @@ class Browser:
         self.browser = webdriver.Firefox()
         self.followersSet = set()
         self.followingsSet = set()
+        self.followingsWhoDoesNotFollowBack = set()
         Browser.openInstagram(self)
         Browser.closeWindow(self)
         Browser.getFollowings(self)
+        Browser.findDifference(self)
 
     def openInstagram(self):
         self.browser.get(self.link)
@@ -40,6 +43,7 @@ class Browser:
             #print(following.text)
         print(folloingsCount)
         print(self.followingsSet)
+        print(len(self.followingsSet))
 
 
     def getFollowers(self):
@@ -59,6 +63,7 @@ class Browser:
             #print(follower.text)
         print(followerCount)
         print(self.followersSet)
+        print(len(self.followersSet))
 
     def scrollDown(self):
         JavaScriptCommand = """
@@ -89,3 +94,13 @@ class Browser:
 
         self.browser.get(self.link + "/" + up.username)
         time.sleep(3)
+
+    def findDifference(self):
+        self.followingsWhoDoesNotFollowBack = self.followingsSet - self.followersSet
+        count = 0
+        for item in self.followingsWhoDoesNotFollowBack:
+            count += 1
+            #print(follower.text)
+        print(count)
+        print(self.followingsWhoDoesNotFollowBack)
+        print(len(self.followingsWhoDoesNotFollowBack))
