@@ -384,3 +384,10 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 1645024567212	Marionette	INFO	Stopped listening on port 63029
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645024836593	geckodriver	INFO	Listening on 127.0.0.1:54483
+1645024839665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54484" "-no-remote" "-profile" "C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofile0LM417"
+1645024839968	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\fazli\\AppData\\Local\\Temp\\rust_mozprofile0LM417\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54484/devtools/browser/a2e67694-7a32-49ac-9f8e-f2966d666256
+1645024841978	Marionette	INFO	Listening on port 54490
+1645024842316	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

@@ -50,6 +50,9 @@ class Browser:
         username = self.browser.find_element_by_name("username")
         password = self.browser.find_element_by_name("password")
         
+        un = input()
+        pw = input()
+
         username.send_keys(up.username)
         password.send_keys(up.password)
 
